@@ -1,0 +1,11 @@
+[package]
+name = "deewaar"
+version = "0.1.0"
+authors = ["ortuna"]
+
+[lib]
+name = "engine"
+path = "src/engine/lib.rs"
+
+[dependencies]
+tcod = "*"
