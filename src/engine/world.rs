@@ -1,5 +1,6 @@
 use tcod::RootConsole;
 use tcod::console::*;
+use tcod::chars;
 
 use camera::Camera;
 use player::Player;
@@ -29,7 +30,6 @@ impl World {
         let y = self.player.y;
 
         self.put_char(x, y, '@');
-
         self.flush();
     }
 
